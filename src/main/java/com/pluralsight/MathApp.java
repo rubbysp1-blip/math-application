@@ -49,7 +49,12 @@ public class MathApp {
         int distanceY = 50 - 10;
 
         System.out.println("The distance difference between (5,10) and (85,50) is " + "(" + distanceX + ", " + distanceY + ")");
+
         //Find and display the absolute (positive) value of a variable after it is set to -3.8
+        double negativeValue = -3.8;
+
+        System.out.println("The absolute value of " + negativeValue + " is " + Math.abs(negativeValue));
+
         //Find and display a random number between 0 and 1
         //Calculate how many minutes are in 24 days, use a variable for each value you
         //calculate with. BONUS: How many milliseconds?
