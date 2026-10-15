@@ -28,5 +28,10 @@ public class MathApp {
         //Find and display the smallest of two variables named carPrice and
         //truckPrice.
         System.out.println("The lowest price is $" + lowestPrice);
+
+        //Find and display the area of a circle whose radius is 7.25
+        double areaCircle = Math.PI * (Math.pow(7.25,2));
+
+        System.out.println("Area of a circle with radius 7.25: " + areaCircle);
     }
 }
