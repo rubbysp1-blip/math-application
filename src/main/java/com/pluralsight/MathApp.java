@@ -33,7 +33,7 @@ public class MathApp {
         double areaCircle = Math.PI * (Math.pow(7.25,2));
 
         //Print out the area number
-        System.out.println("Area of a circle with radius 7.25: " + areaCircle);
+        System.out.println("Area of a circle with radius of 7.25: " + areaCircle);
 
         //Find and display the square root of a variable after it is set to 5.0
         int numberEntered;
@@ -43,5 +43,15 @@ public class MathApp {
 
         //Print out the square root
         System.out.println("The square root of " + numberEntered + " is " + Math.pow(numberEntered,2));
+
+        //Find and display the distance between the points (5, 10) and (85, 50)
+        int distanceX = 85 - 5;
+        int distanceY = 50 - 10;
+
+        System.out.println("The distance difference between (5,10) and (85,50) is " + "(" + distanceX + ", " + distanceY + ")");
+        //Find and display the absolute (positive) value of a variable after it is set to -3.8
+        //Find and display a random number between 0 and 1
+        //Calculate how many minutes are in 24 days, use a variable for each value you
+        //calculate with. BONUS: How many milliseconds?
     }
 }
