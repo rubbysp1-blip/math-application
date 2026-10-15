@@ -56,6 +56,8 @@ public class MathApp {
         System.out.println("The absolute value of " + negativeValue + " is " + Math.abs(negativeValue));
 
         //Find and display a random number between 0 and 1
+        double randomNum = Math.random();
+        System.out.println("The random number between 0 and 1 is " + randomNum);
         //Calculate how many minutes are in 24 days, use a variable for each value you
         //calculate with. BONUS: How many milliseconds?
     }
