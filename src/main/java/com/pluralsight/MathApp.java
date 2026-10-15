@@ -32,6 +32,16 @@ public class MathApp {
         //Find and display the area of a circle whose radius is 7.25
         double areaCircle = Math.PI * (Math.pow(7.25,2));
 
+        //Print out the area number
         System.out.println("Area of a circle with radius 7.25: " + areaCircle);
+
+        //Find and display the square root of a variable after it is set to 5.0
+        int numberEntered;
+
+        //Set the value to 5
+        numberEntered = 5;
+
+        //Print out the square root
+        System.out.println("The square root of " + numberEntered + " is " + Math.pow(numberEntered,2));
     }
 }
