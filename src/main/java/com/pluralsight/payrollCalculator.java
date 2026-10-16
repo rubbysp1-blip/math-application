@@ -6,6 +6,12 @@ public class payrollCalculator {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("What is your name:");
+        System.out.println("What is your name: ");
+        String userName = input.next();
+
+        System.out.printf("Hours worked: ");
+        float hoursWorked = input.nextFloat();
+
+
     }
 }
