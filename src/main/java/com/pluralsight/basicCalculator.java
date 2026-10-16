@@ -13,8 +13,15 @@ public class basicCalculator {
         int secondNumber = input.nextInt();
 
         System.out.println("Possible calculations:\n" +
-                "(A)dd\n" + "(S)ubtract\n" + "(M)ultiply\n" + "(D)ivide");
+                "(A)dd\n" + "(S)ubtract\n" + "(M)ultiply\n" + "(D)ivide\n" +
+                "Please select an option: ");
         char arthmetic = input.nextLine().charAt(0);
+
+        if (arthmetic == 'M'){
+            int multiplicationTotal = firstNumber * secondNumber;
+            System.out.println(firstNumber + " + " + secondNumber + " = " + multiplicationTotal);
+        }
+
 
     }
 }
