@@ -15,11 +15,11 @@ public class basicCalculator {
         System.out.println("Possible calculations:\n" +
                 "(A)dd\n" + "(S)ubtract\n" + "(M)ultiply\n" + "(D)ivide\n" +
                 "Please select an option: ");
-        char arthmetic = input.nextLine().charAt(0);
+        char arthmetic = input.next().charAt(0);
 
         if (arthmetic == 'M'){
             int multiplicationTotal = firstNumber * secondNumber;
-            System.out.println(firstNumber + " + " + secondNumber + " = " + multiplicationTotal);
+            System.out.println(firstNumber + " * " + secondNumber + " = " + multiplicationTotal);
         }
 
 
