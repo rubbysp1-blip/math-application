@@ -61,5 +61,13 @@ public class MathApp {
 
         //Calculate how many minutes are in 24 days, use a variable for each value you
         //calculate with. BONUS: How many milliseconds?
+        int days = 24;
+        int hoursPerDay = 24;
+        int minutesPerHour = 60;
+        int millisecondPerMinute = days * ((hoursPerDay * minutesPerHour) * 60000);
+        int totalMinutes = days * (hoursPerDay * minutesPerHour);
+
+        System.out.println("In 24 days there is a total of " + totalMinutes + " minutes.\n" +
+                "If you convert those minutes into milliseconds you get " + millisecondPerMinute);
     }
 }
