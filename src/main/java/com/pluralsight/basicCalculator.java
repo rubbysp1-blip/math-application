@@ -12,6 +12,9 @@ public class basicCalculator {
         System.out.print("Enter the second number: ");
         int secondNumber = input.nextInt();
 
+        System.out.println("Possible calculations:\n" +
+                "(A)dd\n" + "(S)ubtract\n" + "(M)ultiply\n" + "(D)ivide");
+        char arthmetic = input.nextLine().charAt(0);
 
     }
 }
