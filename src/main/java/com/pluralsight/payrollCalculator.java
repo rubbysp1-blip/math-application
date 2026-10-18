@@ -8,8 +8,8 @@ public class payrollCalculator {
         Scanner input = new Scanner(System.in);
 
         //Ask for their name
-        System.out.println("What is your name: ");
-        String userName = input.next();
+        System.out.print("What is your name: ");
+        String userName = input.nextLine();
 
         //Ask how many hours they worked
         System.out.printf("Hours worked: ");
@@ -19,10 +19,13 @@ public class payrollCalculator {
         System.out.printf("Your pay rate: ");
         float payRate = input.nextFloat();
 
-        //Variable to hold the math equation (gross pay)
-        float grossPay = hoursWorked * payRate;
-
         //Print out the gross pay
-        System.out.println("Name: " + userName + "\n" + "Gross Pay: " + grossPay);
+        System.out.print("Name: " + userName + "\n" + "Gross Pay: " + grossPay(hoursWorked, payRate));
+    }
+
+    public static float grossPay (float hoursWorked, float payRate){
+
+        return hoursWorked * payRate;
+
     }
 }
