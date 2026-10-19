@@ -20,12 +20,19 @@ public class payrollCalculator {
         float payRate = input.nextFloat();
 
         //Print out the gross pay
-        System.out.printf("Name: %s \nGross Pay: $%.2f%n", userName, grossPay(hoursWorked, payRate));
+        printOutput(userName, hoursWorked, payRate);
     }
 
     public static float grossPay (float hoursWorked, float payRate){
 
         return hoursWorked * payRate;
+
+    }
+
+    public static void printOutput(String userName, float hoursWorked, float payRate){
+
+        System.out.printf("------------------------\n" +
+                "Name: %s \nGross Pay: $%,.2f%n", userName, grossPay(hoursWorked, payRate));
 
     }
 }
