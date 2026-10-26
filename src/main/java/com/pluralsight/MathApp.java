@@ -47,8 +47,9 @@ public class MathApp {
         //Find and display the distance between the points (5, 10) and (85, 50)
         int distanceX = 85 - 5;
         int distanceY = 50 - 10;
+        double distanceDifference = Math.sqrt(distanceX * distanceX + distanceY * distanceY);
 
-        System.out.println("The distance difference between (5,10) and (85,50): " + "(" + distanceX + ", " + distanceY + ")");
+        System.out.println("The distance difference between (5,10) and (85,50): " + distanceDifference);
 
         //Find and display the absolute (positive) value of a variable after it is set to -3.8
         double negativeValue = -3.8;
