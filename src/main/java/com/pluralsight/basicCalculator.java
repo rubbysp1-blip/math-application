@@ -17,10 +17,12 @@ public class basicCalculator {
                 "Please select an option: ");
         char arthmetic = input.next().charAt(0);
 
-        if (arthmetic == 'M'){
-            int multiplicationTotal = firstNumber * secondNumber;
-            System.out.println(firstNumber + " * " + secondNumber + " = " + multiplicationTotal);
-        }
+        int multiplicationTotal = firstNumber * secondNumber;
+        System.out.println(firstNumber + " * " + secondNumber + " = " + multiplicationTotal);
+//        if (arthmetic.equals == 'M'){
+//            int multiplicationTotal = firstNumber * secondNumber;
+//            System.out.println(firstNumber + " * " + secondNumber + " = " + multiplicationTotal);
+//        }
 
 
     }
