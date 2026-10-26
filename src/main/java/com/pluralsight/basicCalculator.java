@@ -19,10 +19,7 @@ public class basicCalculator {
 
         int multiplicationTotal = firstNumber * secondNumber;
         System.out.println(firstNumber + " * " + secondNumber + " = " + multiplicationTotal);
-//        if (arthmetic.equals == 'M'){
-//            int multiplicationTotal = firstNumber * secondNumber;
-//            System.out.println(firstNumber + " * " + secondNumber + " = " + multiplicationTotal);
-//        }
+
 
 
     }
