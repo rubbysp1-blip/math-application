@@ -42,7 +42,7 @@ public class MathApp {
         numberEntered = 5;
 
         //Print out the square root
-        System.out.println("The square root of " + numberEntered + " is " + Math.pow(numberEntered,2));
+        System.out.println("The square root of " + numberEntered + " is " + Math.sqrt(numberEntered));
 
         //Find and display the distance between the points (5, 10) and (85, 50)
         int distanceX = 85 - 5;
